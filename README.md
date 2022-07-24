@@ -1,4 +1,4 @@
-# CppUtilities
+# Vagabond
 CppUtilities contains some useful tools for reading files, parsing XML, managing strings and (eventually) more.
 
 It was inspired by Pete McNeil's CodeDweller library https://code.microneil.com/madscientist/CodeDweller and although it's obviously quite different at this point, eventually this will be as intuitive to use as CodeDweller is.
