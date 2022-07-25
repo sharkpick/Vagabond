@@ -98,6 +98,17 @@ std::vector<std::string> split(std::string s, unsigned char delimiter) {
     return results;
 }
 
+bool has_prefix(std::string s, std::string prefix) {
+    if (prefix.length() > s.length()) return false;
+    auto presumed_prefix = s.substr(0, prefix.length());
+    return presumed_prefix == prefix;
+}
+
+bool has_suffix(std::string s, std::string suffix) {
+    if (suffix.length() > s.length()) return false;
+    auto presumed_suffix = s.substr(s.length() - suffix.length(), s.length());
+    return presumed_suffix == suffix;
+}
 
 
 };
